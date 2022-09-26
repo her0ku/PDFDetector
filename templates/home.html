@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDFDetector</title>
+    <link href="static/css/mainPage.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <section>
+  <form action="" method="POST" enctype="multipart/form-data">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="control-label">Загрузка PDF-файла</label>
+            <div class="preview-zone hidden">
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <div><b>Загружать можно только PDF-файлы</b></div>
+                </div>
+                <div class="box-body"></div>
+              </div>
+            </div>
+            <div class="dropzone-wrapper">
+              <div class="dropzone-desc">
+                <i class="glyphicon glyphicon-download-alt"></i>
+                <p>Выберите файл или перетащите его сюда</p>
+              </div>
+              <input type="file" name="img_logo" class="dropzone">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary pull-right">Загрузить</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+
+<script src="static/js/loader.js"></script>
+</body>
+</html>
